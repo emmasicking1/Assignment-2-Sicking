@@ -1,0 +1,74 @@
+/* ===== General page styling ===== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+/* ===== Sticky header with shadow ===== */
+header {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Make header text readable/clean */
+header h1 {
+  margin: 0 0 8px 0;
+}
+
+/* ===== Navigation styling + hover ===== */
+nav a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+  padding: 6px 10px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #222;
+  color: #fff;
+}
+
+/* ===== Center main content using flexbox ===== */
+main {
+  display: flex;
+  justify-content: center;
+  padding: 24px 16px;
+}
+
+/* Wrapper that holds the page content */
+.content {
+  max-width: 800px;
+  width: 100%;
+}
+
+/* Card-like sections for readability */
+section {
+  background-color: #ffffff;
+  padding: 18px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+/* ===== Image sizing ===== */
+img {
+  display: block;
+  margin-top: 12px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===== Footer matches header ===== */
+footer {
+  background-color: #ffffff;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.15);
+}
